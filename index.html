@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Landing Page</title>
     <link rel="shortcut icon" href="./Images/gfavicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
@@ -22,8 +23,39 @@
         </ul>
     </header>
 
-    <main>
-        
+    <main class="main">
+        <img class="main__logo" src="./Images/googlelogo.png" alt="Google Logo">
+
+        <div class="main__search-bar">
+            <img class="main__search-bar--magnify" src="./Images/magnifying_glass.jpg" alt="magnify-glass">
+            <input class="main__search-bar--input" type="search" name="search" placeholder="Search Google or type a URL">
+            <a href="#"><img class="main__search-bar--microphone" src="./Images/google_microphone.png" alt="microphone"></a>
+        </div>
+
+        <div class="main__btn-container">
+            <button class="main__btn-container--left" type="button" name="button">Google Search</button>
+            <button class="main__btn-container--right" type="button" name="button">I'm Feeling Lucky</button>
+        </div>
+
+        <div class="main__language">
+            <p>Other Languages you can use Google: <a href="#">Polski</a></p>
+        </div>
     </main>
+
+    <footer class="footer">
+        <div class="footer__country">Poland</div>
+
+        <ul class="footer__left">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search Works</a></li>
+        </ul>
+
+        <ul class="footer__right">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
